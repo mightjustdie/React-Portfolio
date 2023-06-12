@@ -1,13 +1,18 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-    content: ["./src/**/*.{html,js}"],
-    theme: {
-      extend: {
-         backgroundImage: {
-          'port-bg': "url('../assets/img/port-bg.jpg')",
-         }
-      },
+  content: ["./src/**/*.{html,js}"],
+  theme: {
+    container: {
+      center: true,
     },
-    plugins: [],
-  }
+    extend: {
+      backgroundImage: {
+      'port-bg': "url('../assets/img/port-bg.jpg')",
+      }
+    },
+  },
+  plugins: [],
+}
   
+
+  'port-bg': "url('../assets/img/port-bg.jpg')",
